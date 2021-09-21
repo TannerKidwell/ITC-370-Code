@@ -1,0 +1,83 @@
+/*
+Tanner Kidwell
+9/20/21
+AboutACompany
+*/
+
+body {
+    background-color: white;
+    font-family: "Monaco", Arial, Helvetica, sans-serif;
+    color:black;
+    display: grid;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+    font-size: 30px;
+}
+
+h3 {
+    padding: 20px;
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style:none;
+    background: black;
+}
+
+nav a {
+    float: left;
+    color: rgb(255, 255, 255);
+    font-family: "Monaco", Arial, sans-serif;
+    font-weight: bold;
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 6%;
+    width: 100%;
+    background-color: rgba(58, 49, 51, 0.39);
+    color: black;
+    text-align: center;
+}
+
+.Values li{
+    font-weight: bold;
+}
+
+.Logo {
+    position: absoulte;
+    top:0.5em;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.column {
+    float: left;
+    width: 30%;
+}
+
+.row:after {
+    content: "";
+    display:table;
+    clear:both;
+}
