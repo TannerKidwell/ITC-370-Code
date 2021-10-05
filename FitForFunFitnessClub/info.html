@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Logo">
+        <img src="logo.jpg" alt="Logo" width="100" height="100">
+    </div>
+
+    <nav>
+    <ul>
+        <li class="nav"><a href="index.html">Home</a></li>
+        <li class="nav"><a href="classes.html">Classes</a></li>
+        <li class="nav"><a href="info.html">Information</a></li>
+    </ul>
+    </nav>
+    
+    <main>
+        <h1>Fit For Fun Fitness Club Information</h1>
+        <p2>
+        Use the form below to sign up for our classes if you are interested.
+        </p2>
+
+        <form action="thankyou.html" method="GET"><br>
+            <label for="firstname">First name:</label><br>
+            <input type="text" id="firstname" name="firstname" required> <br>
+            <label for="lastname">Last name:</label><br>
+            <input type="text" id="lastname" name="lastname" required><br>
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" name="email" placeholder="example@example.com" required><br>
+            <label for="phone">Phone Number</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="000-000-0000"><br><br>
+
+            
+            <label for="contact">Preferred method of communication:</label>
+                <select id="contact" name="contact">
+                    <option value="Email">Email</option>
+                    <option value="Phone">Phone</option>
+                    <option value="Owl">Owl</option>
+                    <option value="Bard">Bard</option>
+                </select><br><br>
+            
+            <label for="Classes offered">Select from list of offered classes:</label><br>
+                <input type="checkbox" id="class1" name="class1" value="Cross Training">
+                <label for="class1">Cross Training</label>
+                <input type="checkbox" id="class2" name="class2" value="Sprint">
+                <label for="class2">Sprint</label>
+                <input type="checkbox" id="class3" name="class3" value="Body Pump">
+                <label for="class3">Body Pump</label>
+                <input type="checkbox" id="class4" name="class4" value="Advanced Cross Training">
+                <label for="class4">Advanced Cross Training</label>
+                <input type="checkbox" id="class5" name="class5" value="MixxedFIT">
+                <label for="class5">MixxedFIT</label>
+                <input type="checkbox" id="class6" name="class6" value="Spin">
+                <label for="class6">Spin</label>
+                <input type="checkbox" id="class7" name="class7" value="BodyCombat">
+                <label for="class7">Body Combat</label>
+                <input type="checkbox" id="class8" name="class8" value="Step Interval">
+                <label for="class8">Step Interval</label><br><br>
+
+                <label for="What is your preferred class time?">What is your preferred class time?</label><br>
+                <input type="radio" id="am" name="time" value="am">
+                <label for="am">A.M.</label>
+                <input type="radio" id="pm" name="time" value="pm">
+                <label for="am">P.M.</label><br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+    </main>
+    <footer>
+        <p3>
+            Main Desk: 555-555-5555 Email:FitForFunFitnessClub@FFFFC.com <br>
+            Copyright 2021 by FFFFC &copy;. All rights reserved
+        </p3>
+    </footer>
+
+</body>
+</html>
