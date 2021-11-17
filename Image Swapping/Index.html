@@ -1,0 +1,36 @@
+<!-- Tanner Kidwell & Stefan Hassell
+11/16/21
+Image Swapping-->
+
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Image Swapping</title>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+
+    </head>
+    <body>
+        <header>
+            <h2> Image Swapping</h2>
+            <p>Image Gallery</p>
+        </header>
+
+        <div>
+            <img src="LargestImage.jpg" alt="" class="bigImage" id="bigImage">
+        </div>
+
+        <div>
+            <img src="LargeImage.jpg" alt="" class="thumbnail" id="image1" onclick="changeImage(document.getElementById('image1').src)">
+            <img src="smallerimage1.jpg" alt="" class="thumbnail" id="image2" onclick="changeImage(document.getElementById('image2').src)">
+            <img src="smallerimage2.jpg" alt="" class="thumbnail" id="image3" onclick="changeImage(document.getElementById('image3').src)">
+            <img src="smallerimage3.jpg" alt="" class="thumbnail" id="image4" onclick="changeImage(document.getElementById('image4').src)">
+        </div>
+
+        <div>
+            <script src="script.js"></script>
+        </div>
+
+    </body>
+</html>
